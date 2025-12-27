@@ -125,3 +125,8 @@ An interactive **Streamlit dashboard** was built to:
 ### ✅ Final Note
 
 This project emphasizes **correct forecasting methodology, evaluation, and communication**, while remaining flexible for future MLOps and production extensions.
+## 🚀 Live App
+
+[🔗 Open Streamlit Dashboard](https://airline-demand-forecasting.streamlit.app/)
+
+
