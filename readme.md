@@ -22,10 +22,18 @@ Airlines rely on demand forecasts to plan capacity, staffing, and budgets. Inacc
 - Final forecasts include confidence intervals to support risk-aware planning  
 - Results are easy to explore and export via the dashboard  
 
+
 ## Tools
 Python, Pandas, NumPy, statsmodels, XGBoost, Streamlit
 
-## Live demo
-https://airline-demand-forecasting.streamlit.app/
+
+### Limitations
+- The model is trained on historical passenger demand from a single airline route
+  or dataset and may not generalize to other airlines, regions, or market conditions.
+- External factors such as fuel prices, economic conditions, weather events,
+  and regulatory changes are not explicitly modeled.
+- Forecasts assume historical seasonality patterns will continue into the future.
+- The machine-learning model relies on lag-based features and does not capture
+  sudden structural breaks (e.g., pandemics, shocks) without retraining.
 
 
